@@ -1,0 +1,13 @@
+p{
+    text-align: center;
+    display: table;
+    border-style: solid;
+    border-color: gray;
+    border-width: 1px;
+}
+.days, .hours, .minutes, .seconds{
+    font-size: large;
+    padding: 10px;
+    margin: 10px;
+    background-color: lightseagreen;
+}

@@ -46,9 +46,11 @@ class MyButton{
             'vertical-align: middle;' +
             'display: table-cell;'+
             'text-align: center;'+
-            '" id="div"><button id="btn">' +
+            '" id="div">' +
+            '<button id="btn">' +
             this.text +
-            '</button></div>'
+            '</button>' +
+            '</div>'
         );
     }
 
@@ -66,9 +68,11 @@ class ColorButton extends MyButton{
             'vertical-align: middle;' +
             'display: table-cell;'+
             'text-align: center;'+
-            '" id="div"><button style="background-color: ' + this.color + '" id="btn">' +
+            '" id="div">' +
+            '<button style="background-color: ' + this.color + '" id="btn">' +
             this.text +
-            '</button></div>'
+            '</button>' +
+            '</div>'
         );
     }
 }
@@ -88,9 +92,11 @@ class ActionButton extends ColorButton{
             'vertical-align: middle;' +
             'display: table-cell;'+
             'text-align: center;'+
-            '" id="div"><button style="background-color: ' + this.color + '" id="btn">' +
+            '" id="div">' +
+            '<button style="background-color: ' + this.color + '" id="btn3">' +
             this.text +
-            '</button></div>'
+            '</button>' +
+            '</div>'
         );
     }
 }
